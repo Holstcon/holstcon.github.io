@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en" class="h-100" data-bs-theme="auto">
+
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Holstcon AB - IT Consulting Services">
     <meta name="author" content="Holstcon AB">
     <title>Holstcon AB - Holst Consulting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="inc/fav/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="inc/fav/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -13,37 +16,320 @@
     <link rel="icon" href="inc/fav/favicon.ico">
     <meta name="theme-color" content="#7a7256">
     <link href="inc/css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="inc/fontawesome/v5-pro/css/all.css" rel="stylesheet">
+    <link href="inc/fontawesome/v6-free/css/all.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-bg-dark">
+  <body class="d-flex flex-column h-100">
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-      </nav>
+<div class="container hc-dark-styles">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a title="Holstcon AB" href="index.php" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img alt="Holstcon AB Logo" src="inc/img/holstcon-logo-no-h.png" height="45px">
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.php" class="nav-link active" aria-current="page">Hem</a></li>
+        <li class="nav-item"><a href="staffing.php" class="nav-link">Personaluthyrning</a></li>
+        <li class="nav-item"><a href="contact.php" class="nav-link">Kontakt</a></li>
+      </ul>
+
+    </header>
+  </div>
+
+<main class="flex-shrink-0">
+  <div class="container">
+    <div class="home-fw-img">
+    <div class="home-fw-txt">
+      <h1>Er navigatör i IT-Djungeln</h1>
     </div>
-  </header>
+  </div>
+</div>
+<div class="container container-cont">
+    <h1 class="mt-5">Engagerad IT-partner</h1>
+    <p>Holstcon är den genuint engagerade IT-partnern som skapar mervärde för dig med sin samlade kompetens och erfarenhet.</p>
+    <p>Vi är en märkesoberoende IT-leverantör som värdesätter rätt produkt och lösning på rätt plats för en pålitlig och driftsäker leverans.</p>
+    <p>Vi erbjuder IT-konsulter för kortare och längre behov inom bland annat infrastruktur, Windows, Linux, Nätverk och Servicedesk.</p>
+    <p>Vi har certifierade Linux systemadministratörer redo för att lösa era problem.</p>
+    <p>Vi kan hjälpa er ad-hoc eller låt oss ta ett helhetsgrepp om er IT-miljö, hård- och mjukvara, supportavtal, Microsoft/Office licenshantering samt växeltelefonilösningar.</p>
+    <p>Vi utgår ifrån Norrköping men verkar över hela landet. On-site, Hybrid, Remote.</p>
+    <!-- <h2 class="mt-5 hc-call-colors hc-call-text"><a href="tel:+46101847800">010 - 184 78 00</a></h2> -->
 
-  <main class="px-3">
-    <h1>Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
-    </p>
-  </main>
+<!-- Customers -->
+<section class="py-3 py-md-5 py-xl-8">
+  <div class="container container-cont">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <p class="fs-5 text-secondary mb-3 text-center">Några utav våra kunder</p>
+        <hr class="w-40 mx-auto mb-5 mb-xl-5 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+  <div class="container container-cont overflow-hidden">
+    <div class="row gy-4">
 
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://slsaudio.se/" target="_blank" title="SLS Bilverkstad"><img class="pcs-logos" src="inc/img/pcs/slsad.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="http://www.franzjager.se/" target="_blank" title="Franz Jäger Event"><img class="pcs-logos" src="inc/img/pcs/franzjager.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://www.facebook.com/MyWayKungsgatan/" target="_blank" title="MyWay Kungsgatan Norrköping"><img class="pcs-logos" src="inc/img/pcs/mywaykungs.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://www.humanclarity.se/" target="_blank" title="Human Clarity"><img class="pcs-logos" src="inc/img/pcs/humanclarity.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://chillipizzeria.se/" target="_blank" title="Chilli Grill &amp; Pizzeria "><img class="pcs-logos" src="inc/img/pcs/chillipizzeria_logo.png" style="background-color: #444;"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://bychek.se/" target="_blank" title="Bychek Pråm &amp; Fartygssvets AB"><img class="pcs-logos" src="inc/img/pcs/bychek-logo-web.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://barcontainer.se/" target="_blank" title="Bar Container"><img class="pcs-logos" src="inc/img/pcs/barcontainer.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://oceantrading.se/" target="_blank" title="Ocean Trading"><img class="pcs-logos" src="inc/img/pcs/oceantrading.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="#" title="Änglavis AB"><img class="pcs-logos" src="inc/img/pcs/anglavisab.png"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  </div>
+</main>
+
+<!-- Partners and products -->
+<section class="py-3 py-md-5 py-xl-8">
+  <div class="container container-cont">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <p class="fs-5 text-secondary mb-3 text-center">Några utav våra partners, distributörer & leverantörer</p>
+        <hr class="w-40 mx-auto mb-5 mb-xl-5 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+
+  <div class="container container-cont overflow-hidden">
+    <div class="row gy-4">
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://cyberinfo.se/" target="_blank" title="Cyberinfo"><img class="pcs-logos" src="inc/img/pcs/cyberinfo.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/firstcomeurope_voicego.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center pcs-logos-cont">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/avast.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/ruckus.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/junet.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/proton3.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/m365.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/IBM_Partner.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/lenovo.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/redhat.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/docker.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/github.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <a href="https://www.ibas.com/sv/data-recovery/kontaktformular/?partnerid=6880419" target="_blank" title="Ibas Ontrack"><img class="pcs-logos" src="inc/img/pcs/ontrack-ibas.png"></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/glesys.png">
+        </div>
+      </div>
+
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/logo_imc.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/hetzner.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/rexel.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/komplettforetag.png">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/dustin.png">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img class="pcs-logos" src="inc/img/pcs/eet.png">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  </div>
+</main>
+
+<div class="container cont-footer hc-dark-styles">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top footer-hc">
+    <div class="col mb-3">
+      <a href="index.php" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <img src="inc/img/holstcon_logo_icon_transparent.png" height="45px">
+      </a>
+      <p class="text-body-secondary">Copyright &copy; 2023-<?php echo date("Y"); ?> Holstcon AB &reg; <br /> All rights reserved</p>
+    </div>
+
+    <div class="col mb-3">
+      <h5 class="footer-header">Holstcon AB</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">Org.nr: 559459-8087</li>
+        <li class="nav-item mb-2">VAT: SE559459808701</li>
+        <li class="nav-item mb-2">Godkänd för F-skatt</li>
+        <li class="nav-item mb-2"><a title="LinkedIn" href="https://www.linkedin.com/company/holstcon/" target="_blank" class="fa-a-icons"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5 class="footer-header">Förfrågningar</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">E-post: info@holstcon.se</li>
+      </ul>
+      <h5 class="footer-header">IT Support</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">E-post: support@holstcon.se</li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5 class="footer-header">Postadress</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">Kungsgatan 32 Box 9050</li>
+        <li class="nav-item mb-2">602 20 Norrköping</li>
+      </ul>
+      <h5 class="footer-header">Besöksadress</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">Dalsgatan 13 (Östsvenska Handelskammaren)</li>
+        <li class="nav-item mb-2">602 32 Norrköping</li>
+        <li class="nav-item mb-2"><strong>Endast förbokade besök.</strong></li>
+      </ul>
+    </div>
+
+
   </footer>
-
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
     </body>
 </html>
